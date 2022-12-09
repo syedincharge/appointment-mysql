@@ -11,7 +11,8 @@
 	<groupId>com.azure.sql</groupId>
 	<artifactId>appointment-mysql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>appointment-mysql</name>
+	<name>appointment-mysql
+	</name>
 	<description>Demo project for Spring Boot with Azure</description>
 	<properties>
 		<java.version>1.8</java.version>

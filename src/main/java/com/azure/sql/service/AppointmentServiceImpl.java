@@ -14,7 +14,8 @@ public class AppointmentServiceImpl implements AppointmentService {
 
     @Autowired
     public AppointmentServiceImpl (AppointmentDao appointmentDao) {
-       this.appointmentDao = appointmentDao;
+
+        this.appointmentDao = appointmentDao;
    }
 
     @Override
@@ -24,6 +25,7 @@ public class AppointmentServiceImpl implements AppointmentService {
 
     @Override
     public List<Appointment> getAllAppointments() {
+
         return appointmentDao.getAllAppointments();
     }
 }
